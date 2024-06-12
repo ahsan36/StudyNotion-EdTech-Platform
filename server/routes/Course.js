@@ -36,14 +36,14 @@ const {
   createSubSection,
   updateSubSection,
   deleteSubSection,
-} = require("../controllers/Subsection")
+} = require("../controllers/SubSection")
 
 // Rating Controllers Import
 const {
   createRating,
   getAverageRating,
   getAllRatingReview,
-} = require("../controllers/RatingandReview")
+} = require("../controllers/RatingAndReview")
 const {
   updateCourseProgress,
   getProgressPercentage,
